@@ -1,0 +1,64 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(fundo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+header img{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
+
+header h1{
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-color: rgb(0, 0, 0, 0.2);
+    padding: 7px 9px;
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    
+}
+
+ul{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 300px;
+    
+}
+
+ul li{
+    background-color: rgba(131, 131, 131, 0.685);
+    border-radius: 30px;
+    padding: 15px;
+    margin: 30px;
+    box-shadow: rgb(28 32 93/24%) 0px 2px 8px 0px;
+    -webkit-backdrop-filter:blur(10px) saturate(160%) contrast(180%);
+}
+
+ul li a{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: cursive;
+}
