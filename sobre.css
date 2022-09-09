@@ -1,0 +1,67 @@
+body{
+    background: url(fundo-sobre.jpg) no-repeat center center fixed;
+    background-size: 100%;
+}
+
+header{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.695);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+header h1{
+    font-family: cursive;
+    color: white;
+}
+
+.sobre{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    width: 900px;
+    height: 170px;
+    background: url(texto.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.sobre h4{
+    font-family: cursive;
+    padding: 3px 0px;
+}
+
+.sobre p{
+    font-family: cursive;
+    width: 800px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hobby {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gray;
+    width: 900px;
+    height: 170px;
+    border-radius: 30px;
+    background: url(hobby-texto.jpg);
+}
+.hobby h4{
+    text-align: center;
+    font-family: cursive;
+    padding: 3px 0px;
+}
+.hobby p{
+    text-align: center;
+    font-family: cursive;
+
+}
